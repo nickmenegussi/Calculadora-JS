@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #393e46!important;
+}
+
+.background-calculator{
+    width: 23vw;
+    height: 53vh;
+    margin: 25vh;
+    border-radius: 10px;
+    background-color: #222831;
+}
+
+.btn {
+    height: 6vh;
+    width: 4vw;
+}
+.btn-info:hover{
+    background-color: #00adb5!important;
+}
+.input_config input{
+    height: 9vh;  
+    text-align: right;
+    font-size: x-large;
+}
+
+/* gambiarra */
+.btn-equal {
+    position: relative;
+    top: -10%;
+    height: 230%;
+}
