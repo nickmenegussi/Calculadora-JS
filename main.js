@@ -11,7 +11,7 @@ const equal = document.getElementById("btn-equal")
 // Variaveis para guardar valores
 let operator = ''
 let result = ''
-
+ 
 
 for (const buttons of number_button){
     buttons.addEventListener('click',function(e){
